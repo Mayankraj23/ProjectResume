@@ -62,16 +62,32 @@
                 7/17 - 8/17 :   Developed a website for payment management for a local firm</pre>
 
         </div>
-        <div id = "CONTACT_ME" class = "contact maincontent">
-
-            <ul style="padding: 150px;font-size: xx-large" ><div class="heading"> CONTACT INFORMATION:</div><br><br>
-            <li>NAME: MAYANK RAJ</li><br>
-            <li>PHONE NUMBER : 9521197358</li><br>
-            <li>EMAIL : raj.6@iitj.ac.in</li>
-            </ul>
-
+       <div id = "CONTACT_ME" class = "contact maincontent">
+            <form method="post" style="padding: 25px" >
+                <fieldset>
+                <h1>Contact Information</h1>
+                <label style="padding: 10px">NAME:</label>
+                <input  style="padding: 10px" type="text" id ="name" placeholder="Enter the Name" autofocus><label style="margin-left: 20px">AGE:</label><input  style="padding: 10px" type="text" id="age"> <br><br>
+                <label style="padding: 10px" >Contact number:</label><br>
+                <input  style="padding: 10px" type="text" id="number" placeholder="Enter the phone number"><br><br>
+                <label style="padding: 10px">Email:</label><br>
+                <input style="padding: 10px"  type="text" id="email" placeholder="Enter your Email"><br><br>
+                <label style="padding: 10px">Gender:</label><br>
+                <input style="padding: 10px" type="radio" id ="male" name="gender" value="Male">
+                <label style="padding: 10px">Male</label>
+                <input style="padding: 10px" type="radio" id ="female" name="gender" value="Female">
+                <label style="padding: 10px">Female</label><br><br>
+                <label style="padding: 10px">Occupation</label><br>
+                <input style="padding: 10px" type="radio" value="student" name="occupation" id="student">
+                <label style="padding: 10px">Student</label>
+                <input style="padding: 10px" type="radio" value="Teacher" name="occupation" id="teacher">
+                <label style="padding: 10px">Teacher</label>
+                <input style="padding: 10px" type="radio" value="Others" name="occupation" id="other">
+                <label style="padding: 10px">Others</label><br><br>
+                <input type="button"  class ="submit" value="SUBMIT" onclick="alert('Details succesfully submitted')"/>
+                </fieldset>
+            </form>
         </div>
-
 
     </div>
 
