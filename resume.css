@@ -4,7 +4,7 @@ h1
 }
 .name
 {
-    font-size: xx-large;
+    font-size: large;
 }
 .subheading
 {
@@ -26,7 +26,7 @@ h1
 }
 .heading
 {
-    background-color: #3279BB ;
+    background-color: #3273BB ;
     padding: 10px;
 }
 .tab:focus{
